@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">ARTFOLIO</div>
+        <div class="nav-links">
+            <a href="#home" class="active">Home</a>
+            <a href="#work">Work</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <button class="mobile-menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="fade-in">Welcome to My Creative World</h1>
+            <p class="fade-in">Visual Artist & Digital Creator</p>
+        </div>
+    </header>
+
+    <section id="work" class="portfolio">
+        <h2 class="section-title">Featured Works</h2>
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="digital">Digital</button>
+            <button class="filter-btn" data-filter="photography">Photography</button>
+            <button class="filter-btn" data-filter="illustration">Illustration</button>
+        </div>
+        <div class="gallery">
+            <div class="gallery-item digital" data-category="digital">
+                <img src="https://images.unsplash.com/photo-1634986666676-ec8fd927c23d?w=800&q=80" alt="Digital Art 1">
+                <div class="overlay">
+                    <h3>Digital Dreams</h3>
+                    <p>Digital Art, 2024</p>
+                </div>
+            </div>
+            <div class="gallery-item photography" data-category="photography">
+                <img src="https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?w=800&q=80" alt="Photography 1">
+                <div class="overlay">
+                    <h3>Urban Light</h3>
+                    <p>Photography, 2024</p>
+                </div>
+            </div>
+            <div class="gallery-item illustration" data-category="illustration">
+                <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&q=80" alt="Illustration 1">
+                <div class="overlay">
+                    <h3>Nature's Whisper</h3>
+                    <p>Illustration, 2024</p>
+                </div>
+            </div>
+            <div class="gallery-item digital" data-category="digital">
+                <img src="https://images.unsplash.com/photo-1633177317976-3f9bc45e1d1d?w=800&q=80" alt="Digital Art 2">
+                <div class="overlay">
+                    <h3>Neon Future</h3>
+                    <p>Digital Art, 2024</p>
+                </div>
+            </div>
+            <div class="gallery-item photography" data-category="photography">
+                <img src="https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=800&q=80" alt="Photography 2">
+                <div class="overlay">
+                    <h3>City Vibes</h3>
+                    <p>Photography, 2024</p>
+                </div>
+            </div>
+            <div class="gallery-item illustration" data-category="illustration">
+                <img src="https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=800&q=80" alt="Illustration 2">
+                <div class="overlay">
+                    <h3>Abstract Flow</h3>
+                    <p>Illustration, 2024</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="blog">
+        <h2 class="section-title">Latest Stories</h2>
+        <div class="blog-grid">
+            <article class="blog-card">
+                <div class="blog-image">
+                    <img src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=80" alt="Blog 1">
+                </div>
+                <div class="blog-content">
+                    <h3>The Creative Process</h3>
+                    <p>Exploring the journey from concept to creation...</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </article>
+            <article class="blog-card">
+                <div class="blog-image">
+                    <img src="https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?w=800&q=80" alt="Blog 2">
+                </div>
+                <div class="blog-content">
+                    <h3>Art in the Digital Age</h3>
+                    <p>How technology is shaping modern art...</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="section-title">Get in Touch</h2>
+        <div class="contact-container">
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" required>
+                    <label for="name">Name</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" required>
+                    <label for="email">Email</label>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" required></textarea>
+                    <label for="message">Message</label>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+            <div class="social-links">
+                <a href="#" class="social-link">Instagram</a>
+                <a href="#" class="social-link">Github</a>
+                <a href="#" class="social-link">LinkedIn</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Creative Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
