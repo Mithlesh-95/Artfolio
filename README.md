@@ -1,6 +1,6 @@
 # Artfolio - Online Portfolio for Artists
 
-**Live Demo**: [https://www.saimithlesh.me/Artfolio/](https://www.saimithlesh.me/Artfolio/)
+**Live Demo**: [Click here!](https://www.saimithlesh.me/Artfolio/)
 
 ## Description  
 Artfolio is a clean and responsive online portfolio for artists, photographers, and designers. It features image galleries, a slideshow for featured works, a blog section, and a contact form to connect with potential clients.
